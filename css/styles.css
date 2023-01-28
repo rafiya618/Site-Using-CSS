@@ -1,0 +1,136 @@
+
+body{
+  color: #40514E;
+  margin:0px;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+}
+h1{
+  color:white;
+  font-size: 5.625rem;
+  font-family:'Brush Script MT',Cursive;
+  line-height: 2;
+  margin-top: 50px 0 auto 0;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #0A2647;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+    color: #0A2647;
+}
+h4{
+  color:white;
+  font-size: 1.5rem;
+  font-family: 'Montserrat',sans-serif;
+}
+p{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+hr{
+  background-color:white;
+  border-style: dotted none none;
+  border-color:grey;
+  border-width:5px;
+  height:0px;
+  width:10%;
+}
+.top-container{
+  background-color:#0A2647;
+  position:relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color:#0A2647;
+  padding:50px 0 20px;
+}
+.profile{
+  font-style: italic;
+}
+.skill{
+ font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-cloud{
+  position:absolute;
+  left:300px;
+  top:50px;
+}
+
+.Cimage{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+.CS50image{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.myintro{
+  width: 30%;
+  margin:auto;
+}
+.contact-msg{
+  width:40%
+  margin:40px auto 60px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #275675;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.footer-link{
+  color:white;
+  margin:10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color:black;
+}
+.copyright{
+  color:white;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
+.contact-me{
+  font-style: font-family: 'Montserrat',sans-serif;
+  font-size: 1.2rem;
+  line-height: 1;
+}
